@@ -26,7 +26,7 @@ public class HomeController {
         InetAddress localHost = getLocalHost();
 
         return """
-                <h1>API 서버 테스트입니다! 확인중입니다!</h1>
+                <h1>API 서버 테스트입니다! 무중단입니다!</h1>
                 <p>Host Name: %s</p>
                 <p>Host Address: %s</p>
                 <div>
